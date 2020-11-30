@@ -1,0 +1,44 @@
+.created-training-information{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: $black;
+    display: flex;
+    width: 57em;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+.created-training-little-card{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid $blue;
+    background-color: $white;
+    width: 870px;
+    height: 60px;
+    font-size: 10px;
+    margin: 7px;
+    font-weight: 700;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #999;
+    transition: all 1s ease;
+}
+.created-training-little-card:hover{
+    background: $skyblue;
+    color: $white;
+}
+.created-training-little-text{
+    display:flex;
+}
+.year-div{
+    font-size: 15px;
+    padding-left: 155px;
+    padding-right: 110px;
+}
+.number-participants-div{
+    font-size: 15px;
+}
